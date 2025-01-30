@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 export default function App() {
-  const [saidBy, setSaidBy] = useState("Subbarao Pai");
+  const [saidBy, setSaidBy] = useState("");
   const [quote, setQuote] = useState("");
 
   const getQuote = () => {
